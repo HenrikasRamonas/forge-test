@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('forge', function () {
+    return '<h1>Working Fine!!!</h1>';
+});
+
